@@ -1,6 +1,4 @@
 "use client";
-import React from "react";
-
 const Details = () => {
   return (
     <section className="w-full flex flex-col md:flex-row items-center justify-between  bg-black px-8 md:px-20 py-16">
