@@ -1,9 +1,19 @@
+import Details from "./components/DetailsSection"
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+import HorizontalScrollCarousel from "./components/StatsScroll"
+
 function App() {
-  
 
   return (
     <>
-       <p className='text-blue-600 font-bold'>HelloWorld</p>
+       <Navbar />
+       <Hero/> 
+       <Details/>
+       <HorizontalScrollCarousel/>
+       {/* <Hero/>  */}
+       <img src="/image.png" alt="" className="h-screen w-screen"/>
+      
     </>
   )
 }
